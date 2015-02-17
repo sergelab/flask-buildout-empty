@@ -8,7 +8,7 @@ setup_args = dict(
     author_email = 'info@brpr.ru',
     url = '',
     description = 'Flask sergelab project',
-    long_description = open('README').read(),
+    long_description = open('README.md').read(),
     install_requires = [
         'setuptools',
         'zc.buildout',
