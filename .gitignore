@@ -1,0 +1,13 @@
+
+*.pyc
+.DS_Store
+.installed.cfg
+bin/
+develop-eggs/
+eggs/
+src/sergelab.egg-info/
+src/tmp/
+src/sergelab/config/development.cfg
+src/public
+src/*/final/*
+logs
