@@ -11,7 +11,7 @@ setup_args = dict(
     long_description = open('README.md').read(),
     install_requires = [
         'setuptools',
-        'zc.buildout>=2.2.1',
+        'zc.buildout',
     ],
     packages = find_packages('src'),
     package_dir = {'': 'src'},
