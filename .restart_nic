@@ -1,0 +1,1 @@
+ps auwwx | grep sergelab.ru | grep fcgi | awk '{print $2}' | xargs kill
