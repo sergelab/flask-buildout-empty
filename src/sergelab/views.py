@@ -1,8 +1,15 @@
 # coding: utf-8
 
 from flask import render_template
-from .init import app
+from .init import app, assets
+from flask.ext.assets import Bundle
 
+
+assets.register('site_css_all', Bundle(
+    'css/common.css',
+    filters='jinja2',
+    output='css/front/common.css'
+))
 
 @app.route('/')
 def index():
