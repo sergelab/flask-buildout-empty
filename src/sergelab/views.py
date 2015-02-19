@@ -6,8 +6,7 @@ from .init import app
 
 @app.route('/')
 def index():
-    x = 2
-    return render_template('index.html', x=x)
+    return render_template('index.html')
 
 
 @app.errorhandler(401)
